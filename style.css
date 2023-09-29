@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-container{
+    width: 90%;
+    max-width: 950px;
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+    background-color: rgb(249, 251, 215);
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(0,0,0,0.15);
+}
+
+.color-tag,.button-tag,.select-tag{
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.select-tag{
+    width: 364px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    padding-left: 0.4em;
+    box-shadow: 0 0 2px black;
+}
+
+.button-tag,.copy-button{
+    padding: 0.7em;
+    width: 140px;
+    border: none;
+    font-family: cursive;
+    transition: 0.2s;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-tag{
+    background-color: rgb(7, 0, 98);
+    color: white;
+}
+
+.copy-button{
+    background-color: rgb(255, 132, 0);
+    color: black;
+    position: absolute;
+    bottom: 2rem;
+    left: 1.6rem;
+}
+
+.button-tag:hover,.copy-button:hover{
+    transform: scale(1.02);
+}
+
+.colour-space{
+    display: flex;
+}
+
+.code-space{
+    border: 1px solid black;
+    height: 59px;
+}
+
+.colour-id{
+    height: 625px;
+    width: 20%;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
