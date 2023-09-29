@@ -64,7 +64,7 @@ form{
     background-color: rgb(255, 132, 0);
     color: black;
     position: absolute;
-    bottom: 2rem;
+    bottom: 3.5rem;
     left: 1.6rem;
 }
 
@@ -82,7 +82,7 @@ form{
 }
 
 .colour-id{
-    height: 625px;
+    height: 690px;
     width: 20%;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.1);
